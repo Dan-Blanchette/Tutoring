@@ -88,6 +88,7 @@ void printout(float tip, float cost, float tax)
 {
     float total = cost + tax + tip;
     cout << "Here is the original cost: " << showpoint << setprecision(5) << cost << "\n";
+    
     if (cost >= 148.50)
     {
         cout << "Here is the bill's sales tax: " << showpoint << setprecision(4) << tax << "\n"; 

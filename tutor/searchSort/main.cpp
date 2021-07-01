@@ -40,7 +40,8 @@ int main()
 }
 
 /**
- * @brief conducts a binary search on the elements within an array
+ * @brief conducts a binary search on the elements within an array and returns the element number that
+ * stores the results on success and -1 if the search is unsuccessful.
  * 
  * @return int 
  */
